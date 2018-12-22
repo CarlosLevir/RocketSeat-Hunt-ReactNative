@@ -3,9 +3,16 @@ import Main from './pages/main';
 
 const MainNavigation = createStackNavigator({
     Main: {
-        screen: Main
+        screen: Main,
+        navigationOptions: () => ({
+            headerStyle: {
+                backgroundColor: "#DA552F"
+            },
+            headerTintColor: "#FFF"
+        }),
     }
-})
+    
+});
 
 const App = createAppContainer(MainNavigation);
 
