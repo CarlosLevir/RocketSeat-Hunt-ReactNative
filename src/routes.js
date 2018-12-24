@@ -1,5 +1,6 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Main from './pages/main';
+import Product from './pages/product';
 
 const MainNavigation = createStackNavigator({
     Main: {
@@ -10,6 +11,9 @@ const MainNavigation = createStackNavigator({
             },
             headerTintColor: "#FFF"
         }),
+    },
+    Product: {
+        screen: Product
     }
     
 });
