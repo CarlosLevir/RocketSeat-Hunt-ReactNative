@@ -7,7 +7,7 @@ const MainNavigation = createStackNavigator({
         screen: Main,
         navigationOptions: () => ({
             headerStyle: {
-                backgroundColor: "#3F51B5"
+                backgroundColor: "#7159C1"
             },
             headerTintColor: "#FFF"
         }),

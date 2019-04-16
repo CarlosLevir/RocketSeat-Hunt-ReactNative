@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
         height: 42,
         borderRadius: 5,
         borderWidth: 2,
-        borderColor: "#3F51B5",
+        borderColor: "#7159C1",
         backgroundColor: "transparent",
         alignItems: "center",
         justifyContent: "center",
@@ -108,6 +108,6 @@ const styles = StyleSheet.create({
     productButtonText: {
         fontSize: 16,
         fontWeight: "bold",
-        color: "#3F51B5"
+        color: "#7159C1"
     }
 })
