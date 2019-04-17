@@ -1,6 +1,6 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import Main from './pages/main';
-import Product from './pages/product';
+import Main from './pages/Main';
+import Product from './pages/Product';
 
 const MainNavigation = createStackNavigator({
   Main: {
