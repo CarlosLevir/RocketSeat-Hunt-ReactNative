@@ -3,19 +3,19 @@ import Main from './pages/main';
 import Product from './pages/product';
 
 const MainNavigation = createStackNavigator({
-    Main: {
-        screen: Main,
-        navigationOptions: () => ({
-            headerStyle: {
-                backgroundColor: "#7159C1"
-            },
-            headerTintColor: "#FFF"
-        }),
-    },
-    Product: {
-        screen: Product
-    }
-    
+  Main: {
+    screen: Main,
+    navigationOptions: () => ({
+      headerStyle: {
+        backgroundColor: '#7159C1',
+      },
+      headerTintColor: '#FFF',
+    }),
+  },
+  Product: {
+    screen: Product,
+  },
+
 });
 
 const App = createAppContainer(MainNavigation);
