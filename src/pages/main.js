@@ -19,7 +19,7 @@ export default class Main extends Component {
     const { docs, ...productInfo } = response.data;
 
     this.setState(prevState => ({
-      docs: [prevState.docs, ...docs],
+      docs: [...prevState.docs, ...docs],
       productInfo,
       page,
     }));
