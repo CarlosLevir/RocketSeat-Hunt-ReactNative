@@ -40,7 +40,7 @@ export default class Main extends Component {
   };
 
   renderItem = ({ item }) => {
-    const { navigation: navigate } = this.props;
+    const { navigation: { navigate } } = this.props;
     return (
       <View style={styles.productContainer}>
         <Text style={styles.productTitle}>{item.title}</Text>
